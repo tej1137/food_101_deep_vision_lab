@@ -8,3 +8,4 @@ pillow
 fastparquet
 notebook
 jupyterlab
+split-folders

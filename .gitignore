@@ -45,3 +45,4 @@ models/
 *.h5
 *.keras
 *.weights
+data_split/
