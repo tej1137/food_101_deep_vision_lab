@@ -1,47 +1,32 @@
-# Byte-compiled / optimized / DLL files
+# Dataset
+*.tfrecord
+*.tfrecord-*
+
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
+.ipynb_checkpoints/
 
-# Virtual Environments
-venv/
-env/
-ENV/
-.env
-.venv/
-
-# Jupyter Notebooks
-.ipynb_checkpoints
-
-# IDE settings (VS Code, PyCharm, etc.)
-.vscode/
-.idea/
-
-# Dataset and Large Files (CRITICAL for this project)
-data/
-images/
-*.parquet
-*.zip
-*.tar.gz
-models/
+# Model files
 *.h5
-*.keras
+*.pt
+*.pth
+*.ckpt
 *.weights
+
+# Outputs (optional to
+outputs/
+checkpoints/
+
+# Credentials
+.git-credentials
+*.token
+.env
+
+# Jupyter
+.jupyter/
+
+# OS
+.DS_Store
+Thumbs.db
