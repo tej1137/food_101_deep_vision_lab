@@ -1,9 +1,18 @@
+#Depenencies to download the food dataset.
+
+tensorflow==2.16.1
+protobuf==4.25.3
+tensorflow-datasets==4.9.4
+importlib_resources
+
+
+
+
 numpy
 pandas
 matplotlib
 seaborn
 scikit-learn
-tensorflow
 pillow
 fastparquet
 notebook
